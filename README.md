@@ -62,3 +62,9 @@ Traditional mobile development often depends on simulators or emulators which re
 - Install Expo CLI globally:
   ```bash
   npm install -g expo-cli
+
+```bash
+npm run reset-project
+```
+
+This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
