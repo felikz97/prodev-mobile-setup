@@ -1,64 +1,50 @@
-# Mobile Development Environment Setup
+# Welcome to your Expo app 👋
 
-## Objective
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-This task focuses on setting up the Expo Go environment for mobile app development using React Native. Expo simplifies the mobile development workflow and allows real-time testing directly on physical devices, eliminating the need for emulators.
+## Get started
 
----
+1. Install dependencies
 
-## Tools & Requirements
+   ```bash
+   npm install
+   ```
 
-To complete this setup, the following tools are required:
+2. Start the app
 
-- ✅ Node.js LTS (Installed via https://nodejs.org)
-- ✅ Visual Studio Code (Recommended IDE)
-- ✅ Operating System: Windows/macOS/Linux
-- ✅ Expo Go App (Installed on a physical Android or iOS device)
+   ```bash
+   npx expo start
+   ```
 
----
+In the output, you'll find options to open the app in a
 
-## Why Use Expo Go?
+- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-Traditional mobile development often depends on simulators or emulators which require high system resources. Expo Go offers an efficient, lightweight alternative by allowing:
+You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-- Real-time preview on physical devices
-- Seamless cross-platform support (Android & iOS)
-- No need for Xcode or Android Studio for basic testing
+## Get a fresh project
 
----
+When you're ready, run:
 
-## Setup Steps
+```bash
+npm run reset-project
+```
 
-### ✅ 1. System Check
+This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-- **OS:** Windows 10
-- **VS Code:** Installed
-- **Node.js:** Installed (LTS version)
+## Learn more
 
-### ✅ 2. Installed Expo Go
+To learn more about developing your project with Expo, look at the following resources:
 
-- **Website Visited:** [https://expo.dev/go](https://expo.dev/go)
-- **Device Used:** Android - Samsung Galaxy A14
-- **Store:** Google Play Store
-- **App Installed:** Expo Go (latest version)
+- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
 
-### ✅ 3. Account Setup
+## Join the community
 
-- Created an Expo account using my email address
-- Successfully logged in on the mobile device
+Join our community of developers creating universal apps.
 
----
-
-## Challenges Faced
-
-- No major issues encountered
-- Installation and login were smooth
-- Reminder: Ensure a stable internet connection when scanning QR codes or loading apps in Expo Go
-
----
-
-## Next Steps
-
-- Install Expo CLI globally:
-  ```bash
-  npm install -g expo-cli
+- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
+- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
