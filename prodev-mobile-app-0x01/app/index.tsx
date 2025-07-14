@@ -3,8 +3,10 @@ import { Text, View, StyleSheet } from 'react-native';
 export default function Home() {
   return (
     <View style={styles.container}>
-      {/* Main Wrapper View */}
-      <View style={styles.additionalTextGroup}>
+      <Text>Entry Screen - Awesome</Text>
+
+      {/* ✅ Additional styled text components */}
+      <View style={styles.textGroup}>
         <Text style={styles.largeText}>
           Typescript is great if you practice more
         </Text>
@@ -21,20 +23,14 @@ export default function Home() {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    flex: 1, // ensures full screen
     justifyContent: 'center',
-    paddingHorizontal: 20,
+    alignItems: 'center',
+    padding: 20,
     backgroundColor: '#90caf9',
   },
-  additionalTextGroup: {
-    backgroundColor: '#fff',
-    borderRadius: 10,
-    padding: 15,
-    elevation: 3, // Android shadow
-    shadowColor: '#000', // iOS shadow
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.2,
-    shadowRadius: 4,
+  textGroup: {
+    marginTop: 20,
   },
   largeText: {
     fontSize: 30,
